@@ -3,7 +3,7 @@ package class4;
 public class Task10 {
     public static void main(String[] args) {
 
-        /*int day=1;
+        int day=1;
         boolean workDay=true;
 
         while (day<7){
@@ -13,7 +13,6 @@ public class Task10 {
             workDay=false;
             System.out.println("I don't need a day off anymore");
 
-*/
         /*int num=1;
 
         while (num<101){
@@ -50,12 +49,12 @@ public class Task10 {
             num+=2;
         }*/
 
-        int num2=21;
+      /*  int num2=21;
         while(num2<50){
             if (num2%2!=0){
             System.out.println(num2);
             }
             num2++;
-        }
+        }*/
     }
 }
