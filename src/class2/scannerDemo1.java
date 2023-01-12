@@ -11,5 +11,7 @@ public class scannerDemo1 {
         String name = input.nextLine(); // nextLine is used when we have to take sentences from the keyboard
         System.out.println("My name is " + name);
 
+
+
     }
 }
