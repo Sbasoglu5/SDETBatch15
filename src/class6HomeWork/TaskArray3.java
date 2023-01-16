@@ -1,4 +1,4 @@
-package class6;
+package class6HomeWork;
 
 public class TaskArray3 {
     public static void main(String[] args) {
