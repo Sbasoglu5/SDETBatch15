@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class D2Arrays {
     public static void main(String[] args) {
+
+
         // a 2D array which can hold 3 one D arrays
         // each of  size 3
         String[][] thomsonTrain=new String [3][3];
@@ -23,5 +25,6 @@ public class D2Arrays {
         System.out.println(thomsonTrain[2][1]);
         //System.out.println(thomsonTrain[0]); won't show anything instead write below
         System.out.println(Arrays.toString(thomsonTrain[0]));
+
     }
 }

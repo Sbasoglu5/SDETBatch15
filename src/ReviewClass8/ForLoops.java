@@ -1,4 +1,4 @@
-package ReviewClass;
+package ReviewClass8;
 
 public class ForLoops {
     public static void main(String[] args) {

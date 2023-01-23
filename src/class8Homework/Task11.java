@@ -1,0 +1,7 @@
+package class8Homework;
+
+public class Task11 {
+    public static void main(String[] args) {
+
+    }
+}

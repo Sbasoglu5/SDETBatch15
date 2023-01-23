@@ -1,9 +1,10 @@
-package ReviewClass;
+package ReviewClass8;
 
 import java.util.Scanner;
 
 public class Shopping {
     public static void main(String[] args) {
+
         Scanner inp=new Scanner(System.in);
         double totalPrice=0;
         for (int i = 0; i <=5; i++) {

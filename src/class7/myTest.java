@@ -1,0 +1,7 @@
+package class7;
+
+public class myTest {
+    public static void main(String[] args) {
+        System.out.println("hello");
+    }
+}
