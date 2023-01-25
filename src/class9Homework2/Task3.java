@@ -11,14 +11,18 @@ public class Task3 {
         String mom=input.next();
         System.out.println("Father to be's first name:");
         String dad=input.next();
-        String kid;
+        String firstHalf="";
+        String secondHalf="";
 
         if (expect.equalsIgnoreCase("girl")){
-            kid=(mom.substring(0,2)+(dad.substring(3)));
-            System.out.println("The suggested name is "+kid);
+            firstHalf=mom.substring(0,mom.length()/2);
+            secondHalf=dad.substring(dad.length()/2);
+
         }else {
-            kid=(dad.substring(0,2))+(mom.substring(3));
-            System.out.println("The suggested name is "+kid);
+            firstHalf=dad.substring(0, dad.length()/2);
+            secondHalf=mom.substring(mom.length()/2);
+
         }
+        System.out.println("The suggested name is "+firstHalf+secondHalf);
     }
 }
