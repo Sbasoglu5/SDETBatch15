@@ -1,12 +1,12 @@
 package class15Homework;
 
 public class Task5 {
-//Write a method to return whether given number is prime or not?
-   boolean isPrime(int a){
+//Write num method to return whether given number is prime or not?
+   boolean isPrime(int num){
     boolean flag=true;
-    if (a>1){
-        for (int i = 2; i < a; i++) {
-            if (a%i==0) {
+    if (num>1){
+        for (int i = 2; i < num; i++) {
+            if (num%i==0) {
                 flag = false;
                 break;
             }

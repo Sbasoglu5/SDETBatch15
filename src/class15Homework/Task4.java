@@ -3,7 +3,7 @@ package class15Homework;
 public class Task4 {
     //Create a method that will say Hello in different language based on the country
     // that will be passed when method is executed
-    String language(String country){
+        String language(String country){
         switch (country.toLowerCase()){
             case"england":
 
