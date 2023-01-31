@@ -5,7 +5,7 @@ public class Task2 {
      and returns reversed String.
      Method should be available to all classes within your project
      and accessible by class name.*/
-    public String task2(String a){
+    public static String task2(String a){
         StringBuilder stringBuilder=new StringBuilder(a);
         return stringBuilder.reverse().toString();
     }
