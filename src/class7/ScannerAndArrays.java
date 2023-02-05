@@ -23,7 +23,7 @@ public class ScannerAndArrays {
         numbers [4]=45;*/
 
 
-        //below code uses a normal forr loop to ask the user fo numbers and store them in array
+        //below code uses a normal for loop to ask the user fo numbers and store them in array
         for (int i = 0; i < numbers.length; i++) {
             numbers[i]= input.nextInt();
         }
