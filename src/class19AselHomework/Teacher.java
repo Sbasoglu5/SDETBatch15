@@ -11,10 +11,10 @@ public class Teacher {
     String subject;
 
 
-    public void teacher(){
+    protected void teacher(){
         System.out.println(this.name+" teaches "+this.subject);
     }
-    public void school(){
+    void school(){
         System.out.println(this.name+" works at "+this.nameOfSchool);
     }
     public void age(){
@@ -42,7 +42,7 @@ class ChemistryTeacher extends Teacher{
         System.out.println(this.name+" makes "+payment+ "$ a year");
     }
     public void hour(){
-        System.out.println(this.name+" works "+hours+" a week");
+        System.out.println(this.name+" works "+hours+" hours a week");
     }
 }
 class PianoTeacher extends Teacher{
@@ -51,7 +51,7 @@ class PianoTeacher extends Teacher{
 
 
     void pay(){
-        System.out.println(this.name+"'s fee is "+fee+"$ per hour");
+        System.out.println(this.name+"'s fee is "+fee+"$ an hour");
     }
     void montly(){
         System.out.println(this.name+" works "+montlyHours+" a month");
