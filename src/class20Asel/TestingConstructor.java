@@ -1,4 +1,4 @@
-package class20;
+package class20Asel;
 
 public class TestingConstructor {
     public static void main(String[] args) {

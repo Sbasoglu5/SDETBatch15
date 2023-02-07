@@ -1,4 +1,4 @@
-package class20Homework;
+package class20AselHomework;
 
 public class Employee {
     /*Create an Employee class that will have variables and methods.

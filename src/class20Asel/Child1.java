@@ -1,4 +1,4 @@
-package class20;
+package class20Asel;
 
 public class Child1 extends Parent {
     public static void main(String[] args) {

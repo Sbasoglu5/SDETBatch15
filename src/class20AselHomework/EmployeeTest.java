@@ -1,4 +1,4 @@
-package class20Homework;
+package class20AselHomework;
 
 public class EmployeeTest {
     public static void main(String[] args) {

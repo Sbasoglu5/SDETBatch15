@@ -1,4 +1,4 @@
-package class20;
+package class20Asel;
 
 public class SportTester {
     public static void main(String[] args) {
