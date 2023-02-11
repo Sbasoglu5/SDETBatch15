@@ -9,19 +9,19 @@ public class Creditcard {
     double balance;
     double interest;
 
-    void interest(double balance){
+    public void interest(double balance){
         double interest=(balance/250000);
         System.out.println("Monthly interest based on for requested amount is "+interest+"%");
     }
 }
 class Visa{
-    void interest(double balance){
+    public void interest(double balance){
         double interest=(balance/200000);
         System.out.println("Monthly interest based on for requested amount is "+interest+"%");
     }
 }
 class AX{
-    void interest(double balance){
+    public void interest(double balance){
         double interest=(balance/320000);
         System.out.println("Monthly interest based on for requested amount is "+interest+"%");
     }
