@@ -1,4 +1,4 @@
-package ReviewClass2;
+package Replit;
 
 import java.util.Scanner;
 

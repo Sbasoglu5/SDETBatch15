@@ -45,6 +45,12 @@ class Apple extends Computer{
     public void opt(){
         System.out.println("Apple uses "+operating);
     }
+    public void sss(){
+        System.out.println("-----------------------");
+    }
+    public void aaa(){
+        System.out.println("*****************");
+    }
 }
 
 class Lenovo extends Computer{
@@ -79,7 +85,7 @@ class HP extends Computer{
         System.out.println("HP has the best ergonomic design");
     }
     public void opt(){
-        System.out.println("Apple uses "+operating);
+        System.out.println("HP uses "+operating);
     }
 }
 class Dell extends Computer{
@@ -95,6 +101,6 @@ class Dell extends Computer{
 
     }
     public void opt(){
-        System.out.println("Apple uses "+operating);
+        System.out.println("Dell uses "+operating);
     }
 }
