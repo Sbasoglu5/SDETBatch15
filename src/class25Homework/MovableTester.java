@@ -8,9 +8,10 @@ public class MovableTester {
             m.move();
 
         }
-        Ownable[] ownables={new Car(),new Dog()};
-        for (Ownable o:ownables){
+        Ownable[] ownAbles={new Car(),new Dog()};
+        for (Ownable o:ownAbles){
             o.own();
+
         }
     }
 }
