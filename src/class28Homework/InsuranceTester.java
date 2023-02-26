@@ -19,5 +19,12 @@ public class InsuranceTester {
        insurances.forEach(i->i.getQuote());
        insurances.forEach(i -> i.cancelInsurance());
 
+        System.out.println("___________________________________________");
+
+        for (int i = 0; i < insurances.size(); i++) {
+            insurances.get(i).getQuote();
+            insurances.get(i).cancelInsurance();
+        }
+
     }
 }

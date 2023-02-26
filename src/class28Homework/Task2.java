@@ -18,7 +18,10 @@ public class Task2 {
         while (models.hasNext()){
             String s=models.next();
             System.out.println(s);
-
+        }
+        for (int i = 0; i < cars.size(); i++) {
+            String car = cars.get(i);
+            System.out.println(car);
         }
     }
 }

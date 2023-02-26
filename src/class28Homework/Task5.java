@@ -4,14 +4,11 @@ import java.util.ArrayList;
 
 public class Task5 {
     public static void main(String[] args) {
-        ArrayList<String> evenNumbers=new ArrayList<>();
-        for (int i = 1; i <=500 ; i++) {
-            if(i%2==0){
-                if (i%5==0){
-                    continue;
-                }
-                System.out.println(i);
-            }
+        ArrayList<Integer> evenNumbers=new ArrayList<>();
+        for (int i = 2; i <=500 ; i+=2) {
+            evenNumbers.add(i);
         }
+        evenNumbers.removeIf(x-> x%5==0);
+        System.out.println(evenNumbers);
     }
 }

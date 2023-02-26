@@ -10,7 +10,8 @@ public class Task8 {
             int nextNumber = number1 + number2;
             number1 = number2;
             number2 = nextNumber;
+            System.out.print(number1 + " ");
         }
-        System.out.print(number1 + " ");
+
     }
 }

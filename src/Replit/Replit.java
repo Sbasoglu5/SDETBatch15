@@ -1,41 +1,24 @@
 package Replit;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
 public class Replit {
     public static void main(String[] args) {
-        Tea [] teas={new LemonTea("Lemon Tea"),new ChaiTea("Chai Tea")};
-        for (Tea t:teas){
-            t.addSugar();
-        }
+        List<String> countries=new ArrayList<>();
+        countries.add("Armenia");
+        countries.add("USA");
+        countries.add("Kazakhstan");
+        countries.add("Australia");
+        countries.add("Pakistan");
+        countries.add("Russia");
+        countries.add("Azerbaijan");
 
-    }
-}
-abstract class Tea {
-    String teaType;
-    Tea(String teaType){
-        this.teaType=teaType;
-    }
-    abstract void addSugar();
+        countries.removeIf(i->i.startsWith("A"));
 
-}
-class LemonTea extends Tea{
-
-    LemonTea(String teaType) {
-        super(teaType);
-    }
-
-    @Override
-    void addSugar() {
-        System.out.println("For "+teaType+" we need 2 spoons of sugar");
-    }
-}
-class ChaiTea extends Tea{
-
-    ChaiTea(String teaType) {
-        super(teaType);
-    }
-
-    @Override
-    void addSugar() {
-        System.out.println("For "+teaType+" we need 1 spoons of sugar");
+        List<String> newList=new LinkedList<>();
+        newList.addAll(countries);
+        System.out.println(newList);
     }
 }

@@ -5,19 +5,14 @@ public class Replit169 {
         Constant c=new Constant();
         int[] a = {2,7,3,8,4};
         System.out.println(c.avgElements(a)); //should print 4.8
-
     }
 }
 class Constant{
-  final double avgElements(int [] arr){
-    double sum=0;
-    for (double avr:arr) {
-        sum += avr;
+    final double avgElements(int [] arr){
+        double sum=0;
+        for(double avr:arr){
+            sum+=avr;
+        }
+        return sum/arr.length;
     }
-        double result=sum/ arr.length;
-      return result;
-    }
-
-  }
-
-
+}
