@@ -1,6 +1,7 @@
 package class29Homework;
 
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.TreeSet;
 
@@ -8,7 +9,7 @@ public class Task2 {/*Create a Set of cities in which you want to make sure that
                         Then remove any city that starts with “A”;*/
 
     public static void main(String[] args) {
-        TreeSet<String> cities=new TreeSet<>();
+        LinkedHashSet<String> cities=new LinkedHashSet<>();
         cities.add("Paris");
         cities.add("New York");
         cities.add("Athens");

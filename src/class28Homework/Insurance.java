@@ -20,12 +20,12 @@ class Car extends Insurance{
 
 
     @Override
-    void getQuote() {
+    public void getQuote() {
         System.out.println(insuranceName+" quote is 2000$ a year");
     }
 
     @Override
-    void cancelInsurance() {
+    public void cancelInsurance() {
         System.out.println("You can cancel your car insurance any time you want without any penalty");
 
     }
@@ -39,12 +39,12 @@ class Pet extends Insurance{
     }
 
     @Override
-    void getQuote() {
+   public void getQuote() {
         System.out.println(petType+"'s insurance 580$ a year");
     }
 
     @Override
-    void cancelInsurance() {
+    public void cancelInsurance() {
         System.out.println("You can cancel your "+insuranceName+" anytime");
 
     }
@@ -56,12 +56,12 @@ class Health extends Insurance{
     }
 
     @Override
-    void getQuote() {
+    public void getQuote() {
         System.out.println("Your health insurance is 3400$ per year");
     }
 
     @Override
-    void cancelInsurance() {
+    public void cancelInsurance() {
         System.out.println("You can cancel your "+insuranceName+" anytime with %7 fee");
 
     }
