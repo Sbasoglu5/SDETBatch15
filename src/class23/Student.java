@@ -14,6 +14,8 @@ public class Student {
     public void a(){
         System.out.println("ALL STUDENTS STUDY HARD");
     }
+    public void b(){
+    }
 }
 class SyntaxStudent extends Student{
 
@@ -50,8 +52,8 @@ class CollageStudent extends Student{
 class SchoolStudent extends Student{
     SchoolStudent(String schoolLocation,String schoolName) {
         super(schoolLocation);
-        System.out.println(schoolLocation+" "+schoolName);
         this.schoolName=schoolName;
+
     }
     @Override
     public void a(){

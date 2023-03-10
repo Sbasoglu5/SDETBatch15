@@ -17,5 +17,8 @@ public class SetDemo3 {
         fruit.add("Apple");
 
         System.out.println(fruit);
+        for (String s:fruit){
+            System.out.println(s);
+        }
     }
 }

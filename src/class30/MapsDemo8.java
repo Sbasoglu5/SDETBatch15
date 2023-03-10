@@ -1,5 +1,6 @@
 package class30;
 
+import java.util.Iterator;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -24,6 +25,7 @@ public class MapsDemo8 {
             System.out.println(entry.getKey()+" "+ entry.getValue());
         }
         System.out.println("______________________________________");
+        //Iterator<Map.Entry<String,String>> iterator=countries.entrySet().iterator();
         var iterator=countries.entrySet().iterator();
         while (iterator.hasNext()){
             var entry=iterator.next();

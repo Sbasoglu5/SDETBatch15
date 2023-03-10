@@ -15,7 +15,8 @@ public class NestedLoops6 {
                 if (i == 1 && j == 2 || i == 1 && j == 3 || i == 1 && j == 4||i == 2 && j == 2 || i == 2 && j == 3 || i == 2 && j == 4) {
                     System.out.print("  ");
                 } else {
-                    System.out.print(j + " ");
+                    System.out.print(j + " "); //System.out.print(" *"); if you want only stars
+
                 }
             }
             System.out.println();

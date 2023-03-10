@@ -21,6 +21,5 @@ public class MapsDemo1 {
         studentsMap.replace(2,"Asli");
         System.out.println(studentsMap);
 
-
     }
 }

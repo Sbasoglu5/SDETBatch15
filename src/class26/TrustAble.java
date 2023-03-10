@@ -5,6 +5,8 @@ public interface TrustAble {
 
     int trust();
 
+
+    // other possibilities with interface, but we won't need that as a tester
     static void method1(){
         System.out.println("Hello world");
     }
@@ -14,7 +16,7 @@ public interface TrustAble {
     }
     private void method3(){
 
-    }
+    } // other possibilities with interface, but we won't need that as a tester
 }
 class Bank implements TrustAble{
     @Override

@@ -17,7 +17,7 @@ public class Animal {
 class Cat extends Animal{
     //This is how we override the method from cat class
     void speak(){
-        super.speak();//without super we wouldn't see what was written in the parent class
+        super.speak();//without "super" we wouldn't see what was written in the parent class
         System.out.println("Meow Meow ..........");
     }
 
